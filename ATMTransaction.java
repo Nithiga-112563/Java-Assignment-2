@@ -13,7 +13,7 @@ static double balance = 10000;
     static final int CORRECT_PIN = 1234;
     static final double DAILY_LIMIT = 5000;
 
-    // Method throws user-defined exceptions
+
     static void verifyPin(int pin) throws InvalidPinException {
         if (pin != CORRECT_PIN) {
             throw new InvalidPinException("Invalid PIN!");
