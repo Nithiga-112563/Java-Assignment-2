@@ -112,8 +112,7 @@ public class JavaFXPoster extends Application{
         TextArea ideaField =
                 new TextArea();
 
-        ideaField.setPromptText(
-                "Write your idea for improving education...");
+        ideaField.setPromptText( "Write your idea for improving education...");
         ideaField.setPrefRowCount(4);
 
         Button applyButton =
@@ -127,51 +126,40 @@ public class JavaFXPoster extends Application{
 
         applyButton.setOnAction(e -> {
 
-            String selected =
-                    backgroundChoice.getValue();
+            String selected =  backgroundChoice.getValue();
 
             switch (selected) {
 
                 case "Light Blue":
-                    root.setBackground(
-                            new Background(
-                                    new BackgroundFill(
+                    root.setBackground( new Background( new BackgroundFill(
                                             Color.LIGHTBLUE,
                                             CornerRadii.EMPTY,
                                             Insets.EMPTY)));
                     break;
 
                 case "Light Green":
-                    root.setBackground(
-                            new Background(
-                                    new BackgroundFill(
+                    root.setBackground( new Background(  new BackgroundFill(
                                             Color.LIGHTGREEN,
                                             CornerRadii.EMPTY,
                                             Insets.EMPTY)));
                     break;
 
                 case "Light Yellow":
-                    root.setBackground(
-                            new Background(
-                                    new BackgroundFill(
+                    root.setBackground( new Background(  new BackgroundFill(
                                             Color.LIGHTYELLOW,
                                             CornerRadii.EMPTY,
                                             Insets.EMPTY)));
                     break;
 
                 case "White":
-                    root.setBackground(
-                            new Background(
-                                    new BackgroundFill(
+                    root.setBackground( new Background( new BackgroundFill(
                                             Color.WHITE,
                                             CornerRadii.EMPTY,
                                             Insets.EMPTY)));
                     break;
 
                 case "Lavender":
-                    root.setBackground(
-                            new Background(
-                                    new BackgroundFill(
+                    root.setBackground( new Background(new BackgroundFill(
                                             Color.LAVENDER,
                                             CornerRadii.EMPTY,
                                             Insets.EMPTY)));
